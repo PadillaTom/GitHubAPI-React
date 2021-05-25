@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MdSearch } from 'react-icons/md';
-import { GithubContext } from '../../Context/context';
+
 const Search = () => {
   return <h2>search component</h2>;
 };

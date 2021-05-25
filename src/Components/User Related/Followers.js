@@ -1,5 +1,4 @@
 import React from 'react';
-import { GithubContext } from '../Context/context';
 import styled from 'styled-components';
 
 const Followers = () => {

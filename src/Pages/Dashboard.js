@@ -1,17 +1,22 @@
 import React from 'react';
 
-import { Info, Repos, User} from '../Components';
-
 import {Navbar} from "../Components/Navigation"
 import {Search} from "../Components/Search"
-
-import loadingImage from '../Images/preloader.gif';
-import { GithubContext } from '../Context/context';
+import {User, Info, Repos} from "../Components/User Related";
 
 const Dashboard = () => {
   return (
     <main>
-      <h2>Dashboard Page</h2>
+      <Navbar></Navbar>
+      <Search></Search>
+      {/* User */}
+      <Info></Info>
+      <User></User>
+      <Repos></Repos>
+
+
+
+      
     </main>
   );
 };
