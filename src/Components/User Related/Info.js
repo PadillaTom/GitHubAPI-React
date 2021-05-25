@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {useState, useContext} from 'react';
 import styled from 'styled-components';
 
+import {GithubContext} from "../../Context/userContext"
+
+
 const UserInfo = () => {
+  // Context:
+  const data = useContext(GithubContext);
+  console.log(data);
+
   return <h2>user info component</h2>;
 };
 
